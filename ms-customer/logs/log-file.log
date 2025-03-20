@@ -1,21 +1,16 @@
-2025-03-16T23:26:21.438-03:00  INFO 20624 --- [ms-customer] [main] c.g.l.ms_customer.MsCustomerApplication  : Starting MsCustomerApplication using Java 21.0.2 with PID 20624 (S:\workspace\ms-customer\target\classes started by lucas in S:\workspace\ms-customer)
-2025-03-16T23:26:21.442-03:00  INFO 20624 --- [ms-customer] [main] c.g.l.ms_customer.MsCustomerApplication  : No active profile set, falling back to 1 default profile: "default"
-2025-03-16T23:26:22.696-03:00  INFO 20624 --- [ms-customer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-03-16T23:26:22.833-03:00  INFO 20624 --- [ms-customer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 125 ms. Found 1 JPA repository interface.
-2025-03-16T23:26:23.117-03:00  INFO 20624 --- [ms-customer] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2e687bf2-5049-356e-a2f9-f52155f76b18
-2025-03-16T23:26:24.153-03:00  INFO 20624 --- [ms-customer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
-2025-03-16T23:26:24.178-03:00  INFO 20624 --- [ms-customer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-03-16T23:26:24.179-03:00  INFO 20624 --- [ms-customer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-16T23:26:24.281-03:00  INFO 20624 --- [ms-customer] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-03-16T23:26:24.282-03:00  INFO 20624 --- [ms-customer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2791 ms
-2025-03-16T23:26:24.804-03:00  INFO 20624 --- [ms-customer] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-16T23:26:24.999-03:00  INFO 20624 --- [ms-customer] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:8912e79f-59da-415e-939c-af99e19ab768 user=SA
-2025-03-16T23:26:25.003-03:00  INFO 20624 --- [ms-customer] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-16T23:26:25.119-03:00  INFO 20624 --- [ms-customer] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-03-16T23:26:25.183-03:00  INFO 20624 --- [ms-customer] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2025-03-16T23:26:25.220-03:00  INFO 20624 --- [ms-customer] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-03-16T23:26:25.608-03:00  INFO 20624 --- [ms-customer] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-03-16T23:26:25.711-03:00  INFO 20624 --- [ms-customer] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-03-20T00:00:48.238-03:00  INFO 20640 --- [ms-customer] [main] c.g.l.m.MsCustomerApplicationTests       : Starting MsCustomerApplicationTests using Java 21.0.2 with PID 20640 (started by lucas in S:\workspace\cards-api\ms-customer)
+2025-03-20T00:00:48.246-03:00  INFO 20640 --- [ms-customer] [main] c.g.l.m.MsCustomerApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2025-03-20T00:00:49.316-03:00  INFO 20640 --- [ms-customer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-20T00:00:49.449-03:00  INFO 20640 --- [ms-customer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 122 ms. Found 1 JPA repository interface.
+2025-03-20T00:00:49.691-03:00  INFO 20640 --- [ms-customer] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e57e3db1-2ee5-33d7-963d-349641ec27fd
+2025-03-20T00:00:50.202-03:00  INFO 20640 --- [ms-customer] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-20T00:00:50.371-03:00  INFO 20640 --- [ms-customer] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:6596ba93-1288-4f9a-aa29-5c1081fbaba6 user=SA
+2025-03-20T00:00:50.374-03:00  INFO 20640 --- [ms-customer] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-20T00:00:50.518-03:00  INFO 20640 --- [ms-customer] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-20T00:00:50.574-03:00  INFO 20640 --- [ms-customer] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-20T00:00:50.608-03:00  INFO 20640 --- [ms-customer] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-20T00:00:50.857-03:00  INFO 20640 --- [ms-customer] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-20T00:00:50.920-03:00  INFO 20640 --- [ms-customer] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
@@ -23,262 +18,16 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-03-16T23:26:26.581-03:00  INFO 20624 --- [ms-customer] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-03-16T23:26:26.611-03:00  INFO 20624 --- [ms-customer] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-03-16T23:26:27.033-03:00  WARN 20624 --- [ms-customer] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-16T23:26:27.867-03:00  INFO 20624 --- [ms-customer] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2025-03-16T23:26:27.931-03:00  WARN 20624 --- [ms-customer] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-03-16T23:26:27.942-03:00  INFO 20624 --- [ms-customer] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoints beneath base path '/actuator'
-2025-03-16T23:26:28.069-03:00  INFO 20624 --- [ms-customer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 58570 (http) with context path '/'
-2025-03-16T23:26:28.071-03:00  INFO 20624 --- [ms-customer] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 58570
-2025-03-16T23:26:28.077-03:00  INFO 20624 --- [ms-customer] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-03-16T23:26:28.117-03:00  INFO 20624 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-03-16T23:26:28.123-03:00  INFO 20624 --- [ms-customer] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-03-16T23:26:28.134-03:00  INFO 20624 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-03-16T23:26:28.134-03:00  INFO 20624 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-03-16T23:26:28.134-03:00  INFO 20624 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-03-16T23:26:28.134-03:00  INFO 20624 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-03-16T23:26:28.135-03:00  INFO 20624 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-03-16T23:26:28.135-03:00  INFO 20624 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2025-03-16T23:26:28.135-03:00  INFO 20624 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-03-16T23:26:28.517-03:00  INFO 20624 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2025-03-16T23:26:28.518-03:00  INFO 20624 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2025-03-16T23:26:28.519-03:00  INFO 20624 --- [ms-customer] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-03-16T23:26:28.520-03:00  INFO 20624 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1742178388519 with initial instances count: 0
-2025-03-16T23:26:28.524-03:00  INFO 20624 --- [ms-customer] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MS-CUSTOMER with eureka with status UP
-2025-03-16T23:26:28.524-03:00  INFO 20624 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1742178388524, current=UP, previous=STARTING]
-2025-03-16T23:26:28.526-03:00  INFO 20624 --- [ms-customer] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-CUSTOMER/ms-customer:7b385e2a948c4205b09397bdec5711f3: registering service...
-2025-03-16T23:26:28.544-03:00  INFO 20624 --- [ms-customer] [main] c.g.l.ms_customer.MsCustomerApplication  : Started MsCustomerApplication in 7.593 seconds (process running for 8.129)
-2025-03-16T23:26:28.625-03:00  INFO 20624 --- [ms-customer] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-CUSTOMER/ms-customer:7b385e2a948c4205b09397bdec5711f3 - registration status: 204
-2025-03-16T23:26:46.002-03:00  INFO 20624 --- [ms-customer] [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-03-16T23:26:46.002-03:00  INFO 20624 --- [ms-customer] [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-03-16T23:26:46.004-03:00  INFO 20624 --- [ms-customer] [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-03-16T23:26:58.521-03:00  INFO 20624 --- [ms-customer] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-03-16T23:26:58.521-03:00  INFO 20624 --- [ms-customer] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-03-16T23:26:58.521-03:00  INFO 20624 --- [ms-customer] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-03-16T23:26:58.521-03:00  INFO 20624 --- [ms-customer] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-03-16T23:26:58.521-03:00  INFO 20624 --- [ms-customer] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-03-16T23:26:58.521-03:00  INFO 20624 --- [ms-customer] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
-2025-03-16T23:26:58.522-03:00  INFO 20624 --- [ms-customer] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-03-16T23:26:58.607-03:00  INFO 20624 --- [ms-customer] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2025-03-16T23:31:28.150-03:00  INFO 20624 --- [ms-customer] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-03-16T23:33:30.064-03:00  INFO 20624 --- [ms-customer] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MS-CUSTOMER with eureka with status DOWN
-2025-03-16T23:33:30.064-03:00  INFO 20624 --- [ms-customer] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1742178810064, current=DOWN, previous=UP]
-2025-03-16T23:33:30.064-03:00  INFO 20624 --- [ms-customer] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-CUSTOMER/ms-customer:7b385e2a948c4205b09397bdec5711f3: registering service...
-2025-03-16T23:33:30.067-03:00  INFO 20624 --- [ms-customer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-16T23:33:30.073-03:00  INFO 20624 --- [ms-customer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-03-16T23:33:30.080-03:00  INFO 20624 --- [ms-customer] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-03-16T23:33:30.083-03:00  INFO 20624 --- [ms-customer] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-16T23:33:30.085-03:00  INFO 20624 --- [ms-customer] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-16T23:33:30.086-03:00  INFO 20624 --- [ms-customer] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2025-03-16T23:33:30.131-03:00  INFO 20624 --- [ms-customer] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-CUSTOMER/ms-customer:7b385e2a948c4205b09397bdec5711f3 - registration status: 204
-2025-03-16T23:33:30.132-03:00  INFO 20624 --- [ms-customer] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
-2025-03-16T23:33:30.202-03:00  INFO 20624 --- [ms-customer] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-CUSTOMER/ms-customer:7b385e2a948c4205b09397bdec5711f3 - deregister  status: 200
-2025-03-16T23:33:30.203-03:00  INFO 20624 --- [ms-customer] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
-2025-03-16T23:33:34.709-03:00  INFO 7892 --- [ms-customer] [main] c.g.l.ms_customer.MsCustomerApplication  : Starting MsCustomerApplication using Java 21.0.2 with PID 7892 (S:\workspace\ms-customer\target\classes started by lucas in S:\workspace\ms-customer)
-2025-03-16T23:33:34.712-03:00  INFO 7892 --- [ms-customer] [main] c.g.l.ms_customer.MsCustomerApplication  : No active profile set, falling back to 1 default profile: "default"
-2025-03-16T23:33:35.758-03:00  INFO 7892 --- [ms-customer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-03-16T23:33:35.874-03:00  INFO 7892 --- [ms-customer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 105 ms. Found 1 JPA repository interface.
-2025-03-16T23:33:36.117-03:00  INFO 7892 --- [ms-customer] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6475d04e-7b75-3cdb-9ab4-d47d1b3edbe9
-2025-03-16T23:33:36.730-03:00  INFO 7892 --- [ms-customer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
-2025-03-16T23:33:36.742-03:00  INFO 7892 --- [ms-customer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-03-16T23:33:36.742-03:00  INFO 7892 --- [ms-customer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-16T23:33:36.832-03:00  INFO 7892 --- [ms-customer] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-03-16T23:33:36.832-03:00  INFO 7892 --- [ms-customer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2071 ms
-2025-03-16T23:33:37.234-03:00  INFO 7892 --- [ms-customer] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-16T23:33:37.436-03:00  INFO 7892 --- [ms-customer] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:a7c0623c-eecf-4fde-934b-3f6c50b9ae73 user=SA
-2025-03-16T23:33:37.438-03:00  INFO 7892 --- [ms-customer] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-16T23:33:37.519-03:00  INFO 7892 --- [ms-customer] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-03-16T23:33:37.583-03:00  INFO 7892 --- [ms-customer] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2025-03-16T23:33:37.635-03:00  INFO 7892 --- [ms-customer] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-03-16T23:33:37.886-03:00  INFO 7892 --- [ms-customer] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-03-16T23:33:37.955-03:00  INFO 7892 --- [ms-customer] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 2.3.232
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-03-16T23:33:38.539-03:00  INFO 7892 --- [ms-customer] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-03-16T23:33:38.563-03:00  INFO 7892 --- [ms-customer] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-03-16T23:33:39.045-03:00  WARN 7892 --- [ms-customer] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-16T23:33:39.099-03:00  INFO 7892 --- [ms-customer] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
-2025-03-16T23:33:40.051-03:00  INFO 7892 --- [ms-customer] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2025-03-16T23:33:40.113-03:00  WARN 7892 --- [ms-customer] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-03-16T23:33:40.125-03:00  INFO 7892 --- [ms-customer] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoints beneath base path '/actuator'
-2025-03-16T23:33:40.252-03:00  INFO 7892 --- [ms-customer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 58769 (http) with context path '/'
-2025-03-16T23:33:40.254-03:00  INFO 7892 --- [ms-customer] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 58769
-2025-03-16T23:33:40.261-03:00  INFO 7892 --- [ms-customer] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-03-16T23:33:40.302-03:00  INFO 7892 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-03-16T23:33:40.311-03:00  INFO 7892 --- [ms-customer] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-03-16T23:33:40.322-03:00  INFO 7892 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-03-16T23:33:40.322-03:00  INFO 7892 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-03-16T23:33:40.322-03:00  INFO 7892 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-03-16T23:33:40.322-03:00  INFO 7892 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-03-16T23:33:40.322-03:00  INFO 7892 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-03-16T23:33:40.322-03:00  INFO 7892 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2025-03-16T23:33:40.322-03:00  INFO 7892 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-03-16T23:33:40.699-03:00  INFO 7892 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2025-03-16T23:33:40.701-03:00  INFO 7892 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2025-03-16T23:33:40.702-03:00  INFO 7892 --- [ms-customer] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-03-16T23:33:40.703-03:00  INFO 7892 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1742178820703 with initial instances count: 4
-2025-03-16T23:33:40.707-03:00  INFO 7892 --- [ms-customer] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MS-CUSTOMER with eureka with status UP
-2025-03-16T23:33:40.708-03:00  INFO 7892 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1742178820708, current=UP, previous=STARTING]
-2025-03-16T23:33:40.709-03:00  INFO 7892 --- [ms-customer] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-CUSTOMER/ms-customer:d6fd9098f12aaf34f91e4132ad7f41b4: registering service...
-2025-03-16T23:33:40.728-03:00  INFO 7892 --- [ms-customer] [main] c.g.l.ms_customer.MsCustomerApplication  : Started MsCustomerApplication in 6.555 seconds (process running for 7.156)
-2025-03-16T23:33:40.813-03:00  INFO 7892 --- [ms-customer] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-CUSTOMER/ms-customer:d6fd9098f12aaf34f91e4132ad7f41b4 - registration status: 204
-2025-03-16T23:33:47.328-03:00  INFO 7892 --- [ms-customer] [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-03-16T23:33:47.328-03:00  INFO 7892 --- [ms-customer] [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-03-16T23:33:47.330-03:00  INFO 7892 --- [ms-customer] [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-03-16T23:34:08.181-03:00  INFO 7892 --- [ms-customer] [http-nio-auto-1-exec-1] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 187 ms
-2025-03-16T23:36:21.958-03:00  INFO 7892 --- [ms-customer] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MS-CUSTOMER with eureka with status DOWN
-2025-03-16T23:36:21.958-03:00  INFO 7892 --- [ms-customer] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1742178981958, current=DOWN, previous=UP]
-2025-03-16T23:36:21.958-03:00  INFO 7892 --- [ms-customer] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-CUSTOMER/ms-customer:d6fd9098f12aaf34f91e4132ad7f41b4: registering service...
-2025-03-16T23:36:21.961-03:00  INFO 7892 --- [ms-customer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-16T23:36:21.966-03:00  INFO 7892 --- [ms-customer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-03-16T23:36:21.972-03:00  INFO 7892 --- [ms-customer] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-03-16T23:36:21.975-03:00  INFO 7892 --- [ms-customer] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-16T23:36:21.977-03:00  INFO 7892 --- [ms-customer] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-16T23:36:21.978-03:00  INFO 7892 --- [ms-customer] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2025-03-16T23:36:22.034-03:00  INFO 7892 --- [ms-customer] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-CUSTOMER/ms-customer:d6fd9098f12aaf34f91e4132ad7f41b4 - registration status: 204
-2025-03-16T23:36:22.034-03:00  INFO 7892 --- [ms-customer] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
-2025-03-16T23:36:22.100-03:00  INFO 7892 --- [ms-customer] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-CUSTOMER/ms-customer:d6fd9098f12aaf34f91e4132ad7f41b4 - deregister  status: 200
-2025-03-16T23:36:22.100-03:00  INFO 7892 --- [ms-customer] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
-2025-03-16T23:36:27.106-03:00  INFO 24648 --- [ms-customer] [main] c.g.l.ms_customer.MsCustomerApplication  : Starting MsCustomerApplication using Java 21.0.2 with PID 24648 (S:\workspace\ms-customer\target\classes started by lucas in S:\workspace\ms-customer)
-2025-03-16T23:36:27.107-03:00  INFO 24648 --- [ms-customer] [main] c.g.l.ms_customer.MsCustomerApplication  : No active profile set, falling back to 1 default profile: "default"
-2025-03-16T23:36:28.217-03:00  INFO 24648 --- [ms-customer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-03-16T23:36:28.367-03:00  INFO 24648 --- [ms-customer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 129 ms. Found 1 JPA repository interface.
-2025-03-16T23:36:28.630-03:00  INFO 24648 --- [ms-customer] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6475d04e-7b75-3cdb-9ab4-d47d1b3edbe9
-2025-03-16T23:36:29.300-03:00  INFO 24648 --- [ms-customer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
-2025-03-16T23:36:29.320-03:00  INFO 24648 --- [ms-customer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-03-16T23:36:29.321-03:00  INFO 24648 --- [ms-customer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-16T23:36:29.411-03:00  INFO 24648 --- [ms-customer] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-03-16T23:36:29.413-03:00  INFO 24648 --- [ms-customer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2240 ms
-2025-03-16T23:36:29.837-03:00  INFO 24648 --- [ms-customer] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-16T23:36:30.098-03:00  INFO 24648 --- [ms-customer] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:de0c2390-acdf-454a-8c44-70a408a58ed8 user=SA
-2025-03-16T23:36:30.100-03:00  INFO 24648 --- [ms-customer] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-16T23:36:30.204-03:00  INFO 24648 --- [ms-customer] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-03-16T23:36:30.279-03:00  INFO 24648 --- [ms-customer] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2025-03-16T23:36:30.322-03:00  INFO 24648 --- [ms-customer] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-03-16T23:36:30.628-03:00  INFO 24648 --- [ms-customer] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-03-16T23:36:30.699-03:00  INFO 24648 --- [ms-customer] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 2.3.232
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-03-16T23:36:31.502-03:00  INFO 24648 --- [ms-customer] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-03-16T23:36:31.527-03:00  INFO 24648 --- [ms-customer] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-03-16T23:36:32.091-03:00  WARN 24648 --- [ms-customer] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-16T23:36:32.154-03:00  INFO 24648 --- [ms-customer] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
-2025-03-16T23:36:33.125-03:00  INFO 24648 --- [ms-customer] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2025-03-16T23:36:33.177-03:00  WARN 24648 --- [ms-customer] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-03-16T23:36:33.188-03:00  INFO 24648 --- [ms-customer] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoints beneath base path '/actuator'
-2025-03-16T23:36:33.295-03:00  INFO 24648 --- [ms-customer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 58845 (http) with context path '/'
-2025-03-16T23:36:33.298-03:00  INFO 24648 --- [ms-customer] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 58845
-2025-03-16T23:36:33.309-03:00  INFO 24648 --- [ms-customer] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-03-16T23:36:33.331-03:00  INFO 24648 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-03-16T23:36:33.335-03:00  INFO 24648 --- [ms-customer] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-03-16T23:36:33.344-03:00  INFO 24648 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-03-16T23:36:33.344-03:00  INFO 24648 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-03-16T23:36:33.344-03:00  INFO 24648 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-03-16T23:36:33.344-03:00  INFO 24648 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-03-16T23:36:33.344-03:00  INFO 24648 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-03-16T23:36:33.344-03:00  INFO 24648 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2025-03-16T23:36:33.344-03:00  INFO 24648 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-03-16T23:36:33.738-03:00  INFO 24648 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2025-03-16T23:36:33.739-03:00  INFO 24648 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2025-03-16T23:36:33.740-03:00  INFO 24648 --- [ms-customer] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-03-16T23:36:33.742-03:00  INFO 24648 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1742178993741 with initial instances count: 3
-2025-03-16T23:36:33.746-03:00  INFO 24648 --- [ms-customer] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MS-CUSTOMER with eureka with status UP
-2025-03-16T23:36:33.747-03:00  INFO 24648 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1742178993747, current=UP, previous=STARTING]
-2025-03-16T23:36:33.748-03:00  INFO 24648 --- [ms-customer] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-CUSTOMER/ms-customer:e7602e801ee1be6a2a4cd1683dc03d72: registering service...
-2025-03-16T23:36:33.774-03:00  INFO 24648 --- [ms-customer] [main] c.g.l.ms_customer.MsCustomerApplication  : Started MsCustomerApplication in 7.27 seconds (process running for 7.901)
-2025-03-16T23:36:33.857-03:00  INFO 24648 --- [ms-customer] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-CUSTOMER/ms-customer:e7602e801ee1be6a2a4cd1683dc03d72 - registration status: 204
-2025-03-16T23:38:00.469-03:00  INFO 24648 --- [ms-customer] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MS-CUSTOMER with eureka with status DOWN
-2025-03-16T23:38:00.470-03:00  INFO 24648 --- [ms-customer] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1742179080470, current=DOWN, previous=UP]
-2025-03-16T23:38:00.470-03:00  INFO 24648 --- [ms-customer] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-CUSTOMER/ms-customer:e7602e801ee1be6a2a4cd1683dc03d72: registering service...
-2025-03-16T23:38:00.472-03:00  INFO 24648 --- [ms-customer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-16T23:38:00.476-03:00  INFO 24648 --- [ms-customer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-03-16T23:38:00.483-03:00  INFO 24648 --- [ms-customer] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-03-16T23:38:00.487-03:00  INFO 24648 --- [ms-customer] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-16T23:38:00.488-03:00  INFO 24648 --- [ms-customer] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-16T23:38:00.489-03:00  INFO 24648 --- [ms-customer] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2025-03-16T23:38:00.543-03:00  INFO 24648 --- [ms-customer] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-CUSTOMER/ms-customer:e7602e801ee1be6a2a4cd1683dc03d72 - registration status: 204
-2025-03-16T23:38:00.544-03:00  INFO 24648 --- [ms-customer] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
-2025-03-16T23:38:00.608-03:00  INFO 24648 --- [ms-customer] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-CUSTOMER/ms-customer:e7602e801ee1be6a2a4cd1683dc03d72 - deregister  status: 200
-2025-03-16T23:38:00.608-03:00  INFO 24648 --- [ms-customer] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
-2025-03-16T23:38:16.045-03:00  INFO 26632 --- [ms-customer] [main] c.g.l.ms_customer.MsCustomerApplication  : Starting MsCustomerApplication using Java 21.0.2 with PID 26632 (S:\workspace\ms-customer\target\classes started by lucas in S:\workspace\ms-customer)
-2025-03-16T23:38:16.048-03:00  INFO 26632 --- [ms-customer] [main] c.g.l.ms_customer.MsCustomerApplication  : No active profile set, falling back to 1 default profile: "default"
-2025-03-16T23:38:18.035-03:00  INFO 26632 --- [ms-customer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-03-16T23:38:18.236-03:00  INFO 26632 --- [ms-customer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 183 ms. Found 1 JPA repository interface.
-2025-03-16T23:38:18.695-03:00  INFO 26632 --- [ms-customer] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6475d04e-7b75-3cdb-9ab4-d47d1b3edbe9
-2025-03-16T23:38:19.607-03:00  INFO 26632 --- [ms-customer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
-2025-03-16T23:38:19.624-03:00  INFO 26632 --- [ms-customer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-03-16T23:38:19.625-03:00  INFO 26632 --- [ms-customer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-16T23:38:19.721-03:00  INFO 26632 --- [ms-customer] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-03-16T23:38:19.723-03:00  INFO 26632 --- [ms-customer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3569 ms
-2025-03-16T23:38:20.569-03:00  INFO 26632 --- [ms-customer] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-16T23:38:20.949-03:00  INFO 26632 --- [ms-customer] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:fdf60198-9ec5-4b30-a848-fe42ef1b493c user=SA
-2025-03-16T23:38:20.958-03:00  INFO 26632 --- [ms-customer] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-16T23:38:21.104-03:00  INFO 26632 --- [ms-customer] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-03-16T23:38:21.217-03:00  INFO 26632 --- [ms-customer] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2025-03-16T23:38:21.337-03:00  INFO 26632 --- [ms-customer] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-03-16T23:38:21.850-03:00  INFO 26632 --- [ms-customer] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-03-16T23:38:22.008-03:00  INFO 26632 --- [ms-customer] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 2.3.232
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-03-16T23:38:23.103-03:00  INFO 26632 --- [ms-customer] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-03-16T23:38:23.148-03:00  INFO 26632 --- [ms-customer] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-03-16T23:38:23.933-03:00  WARN 26632 --- [ms-customer] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-16T23:38:24.037-03:00  INFO 26632 --- [ms-customer] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
-2025-03-16T23:38:25.204-03:00  INFO 26632 --- [ms-customer] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2025-03-16T23:38:25.273-03:00  WARN 26632 --- [ms-customer] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-03-16T23:38:25.285-03:00  INFO 26632 --- [ms-customer] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoints beneath base path '/actuator'
-2025-03-16T23:38:25.432-03:00  INFO 26632 --- [ms-customer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 58924 (http) with context path '/'
-2025-03-16T23:38:25.435-03:00  INFO 26632 --- [ms-customer] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 58924
-2025-03-16T23:38:25.453-03:00  INFO 26632 --- [ms-customer] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-03-16T23:38:25.492-03:00  INFO 26632 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-03-16T23:38:25.496-03:00  INFO 26632 --- [ms-customer] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-03-16T23:38:25.509-03:00  INFO 26632 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-03-16T23:38:25.509-03:00  INFO 26632 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-03-16T23:38:25.509-03:00  INFO 26632 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-03-16T23:38:25.509-03:00  INFO 26632 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-03-16T23:38:25.509-03:00  INFO 26632 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-03-16T23:38:25.509-03:00  INFO 26632 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2025-03-16T23:38:25.509-03:00  INFO 26632 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-03-16T23:38:26.023-03:00  INFO 26632 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2025-03-16T23:38:26.025-03:00  INFO 26632 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2025-03-16T23:38:26.027-03:00  INFO 26632 --- [ms-customer] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-03-16T23:38:26.029-03:00  INFO 26632 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1742179106028 with initial instances count: 4
-2025-03-16T23:38:26.035-03:00  INFO 26632 --- [ms-customer] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MS-CUSTOMER with eureka with status UP
-2025-03-16T23:38:26.036-03:00  INFO 26632 --- [ms-customer] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1742179106036, current=UP, previous=STARTING]
-2025-03-16T23:38:26.037-03:00  INFO 26632 --- [ms-customer] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-CUSTOMER/ms-customer:dcd11f145481a9d9b50446a55753fbd9: registering service...
-2025-03-16T23:38:26.063-03:00  INFO 26632 --- [ms-customer] [main] c.g.l.ms_customer.MsCustomerApplication  : Started MsCustomerApplication in 10.696 seconds (process running for 11.469)
-2025-03-16T23:38:26.154-03:00  INFO 26632 --- [ms-customer] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-CUSTOMER/ms-customer:dcd11f145481a9d9b50446a55753fbd9 - registration status: 204
-2025-03-16T23:41:24.667-03:00  INFO 26632 --- [ms-customer] [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-03-16T23:41:24.667-03:00  INFO 26632 --- [ms-customer] [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-03-16T23:41:24.669-03:00  INFO 26632 --- [ms-customer] [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-03-16T23:43:25.522-03:00  INFO 26632 --- [ms-customer] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-03-16T23:43:34.765-03:00  INFO 26632 --- [ms-customer] [http-nio-auto-1-exec-5] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 174 ms
-2025-03-16T23:43:49.663-03:00  INFO 26632 --- [ms-customer] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MS-CUSTOMER with eureka with status DOWN
-2025-03-16T23:43:49.663-03:00  INFO 26632 --- [ms-customer] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1742179429663, current=DOWN, previous=UP]
-2025-03-16T23:43:49.663-03:00  INFO 26632 --- [ms-customer] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-CUSTOMER/ms-customer:dcd11f145481a9d9b50446a55753fbd9: registering service...
-2025-03-16T23:43:49.666-03:00  INFO 26632 --- [ms-customer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-16T23:43:49.670-03:00  INFO 26632 --- [ms-customer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-03-16T23:43:49.674-03:00  INFO 26632 --- [ms-customer] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-03-16T23:43:49.676-03:00  INFO 26632 --- [ms-customer] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-16T23:43:49.679-03:00  INFO 26632 --- [ms-customer] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-16T23:43:49.679-03:00  INFO 26632 --- [ms-customer] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2025-03-16T23:43:49.740-03:00  INFO 26632 --- [ms-customer] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-CUSTOMER/ms-customer:dcd11f145481a9d9b50446a55753fbd9 - registration status: 204
-2025-03-16T23:43:49.741-03:00  INFO 26632 --- [ms-customer] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
-2025-03-16T23:43:49.800-03:00  INFO 26632 --- [ms-customer] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-CUSTOMER/ms-customer:dcd11f145481a9d9b50446a55753fbd9 - deregister  status: 200
-2025-03-16T23:43:49.800-03:00  INFO 26632 --- [ms-customer] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-03-20T00:00:51.528-03:00  INFO 20640 --- [ms-customer] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-20T00:00:51.568-03:00  INFO 20640 --- [ms-customer] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-20T00:00:52.234-03:00  WARN 20640 --- [ms-customer] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-20T00:00:52.296-03:00  INFO 20640 --- [ms-customer] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-03-20T00:00:53.418-03:00  INFO 20640 --- [ms-customer] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-03-20T00:00:53.467-03:00  WARN 20640 --- [ms-customer] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-03-20T00:00:53.481-03:00  INFO 20640 --- [ms-customer] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoints beneath base path '/actuator'
+2025-03-20T00:00:53.577-03:00  INFO 20640 --- [ms-customer] [main] c.g.l.m.MsCustomerApplicationTests       : Started MsCustomerApplicationTests in 5.646 seconds (process running for 6.628)
+2025-03-20T00:00:54.104-03:00  INFO 20640 --- [ms-customer] [SpringApplicationShutdownHook] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-03-20T00:00:54.108-03:00  INFO 20640 --- [ms-customer] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MS-CUSTOMER with eureka with status DOWN
+2025-03-20T00:00:54.115-03:00  INFO 20640 --- [ms-customer] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-20T00:00:54.119-03:00  INFO 20640 --- [ms-customer] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-20T00:00:54.121-03:00  INFO 20640 --- [ms-customer] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
