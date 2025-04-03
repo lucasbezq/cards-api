@@ -50,4 +50,7 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 - **Spring Security** — Segurança para o gateway.
 - **OAuth2.0** — Controle de autenticação e autorização.
 - **Spring Actuator** — Monitoramento e métricas para os microsserviços.
+- **Spring Doc** — Documentação das aplicações.
+
+
 
